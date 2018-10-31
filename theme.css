@@ -1,4 +1,4 @@
-/*  Dark File Browser 1.0.1 by Felix
+/*  Dark File Browser 1.0.2 by Felix
 
         A dark theme for File Browser
 
@@ -9,7 +9,7 @@
 /* --- VERSION --- */
 .credits span:nth-child(2):after {
   white-space: pre !important;
-  content: "\A\A Dark File Browser v1.0.1" !important;
+  content: "\A\A Dark File Browser v1.0.2" !important;
 }
 
 /* --- LOGIN --- */
@@ -98,8 +98,17 @@ header #search.active .action:hover {
   background-color: #303030;
 }
 
+header img {
+  height: 0 !important;
+  width: 0 !important;
+  padding-left: 40px !important;
+  padding-top: 40px !important;
+  background: url("https://rawcdn.githack.com/iFelix18/Dark-File-Browser/eea4b70d183680f9ae27604df91ae26fa7efd2b8/resources/logo-dark.png") no-repeat !important;
+  background-size: 40px 40px !important;
+}
+
 /* --- NAV --- */
-nav {
+nav.active {
   background-color: #1F1F1F;
 }
 

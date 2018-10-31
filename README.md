@@ -27,7 +27,7 @@
 [![Editor]][Screenshots]
 </details>
 
-[version]: https://flat.badgen.net/badge/version/1.0.1/ED1C24
+[version]: https://flat.badgen.net/badge/version/1.0.2/ED1C24
 [1]: #
 [size]: https://flat.badgen.net/badgesize/normal/iFelix18/Dark-File-Browser/master/theme.css
 [stars]: https://flat.badgen.net/github/stars/iFelix18/Dark-File-Browser

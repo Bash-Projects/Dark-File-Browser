@@ -1,6 +1,8 @@
 /* --- NAV --- */
 nav {
-    background-color: $GreyBG;
+    &.active {
+        background-color: $GreyBG;
+    }
 
     .action {
         color: $White;

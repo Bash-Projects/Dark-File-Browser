@@ -47,4 +47,13 @@ header {
             }
         }
     }
+
+    img {
+        height: 0 !important;
+        width: 0 !important;
+        padding-left: 40px !important;
+        padding-top: 40px !important;
+        background: url("https://rawcdn.githack.com/iFelix18/Dark-File-Browser/eea4b70d183680f9ae27604df91ae26fa7efd2b8/resources/logo-dark.png") no-repeat !important;
+        background-size: 40px 40px !important;
+    }
 }
