@@ -1,0 +1,102 @@
+/* --- SETTINGS --- */
+.dashboard {
+    #nav {
+        color: $White;
+
+        li.active {
+            border-color: $White;
+        }
+    }
+
+    .card {
+        background-color: $GreyBG;
+        color: $White;
+
+        .card-title {
+            button.flat {
+                background-color: $Grey;
+                box-shadow: inset 0 0 0 1px $Grey;
+                color: $White;
+
+                &:hover {
+                    box-shadow: inset 0 0 0 1px $White;
+                }
+            }
+        }
+
+        h3 {
+            color: $White;
+        }
+
+        p label {
+            color: $White;
+        }
+
+        textarea {
+            background-color: $Grey;
+            border-color: $Grey;
+            color: $White;
+
+            &:focus {
+                border-color: $White;
+            }
+        }
+
+        input[type="password"],
+        input[type="text"] {
+            color: $White;
+
+            &:hover,
+            &:focus {
+                border-color: $White;
+            }
+        }
+
+        .collapsible {
+            border-top-color: $Grey;
+
+            label * {
+                color: $White;
+            }
+        }
+
+        .card-content.full {
+            table {
+                tr {
+                    border-bottom-color: $Grey;
+                }
+
+                th {
+                    color: $White;
+                }
+            }
+        }
+
+        .card-action {
+            input[type="submit"].flat {
+                background-color: $Grey;
+                box-shadow: inset 0 0 0 1px $Grey;
+                color: $White;
+
+                &:hover {
+                    box-shadow: inset 0 0 0 1px $White;
+                }
+            }
+
+            button.flat.delete {
+                background-color: $Red;
+                box-shadow: inset 0 0 0 1px $Grey;
+                color: $White;
+
+                &:hover {
+                    box-shadow: inset 0 0 0 1px $White;
+                }
+            }
+        }
+    }
+
+    #locale {
+        background-color: $GreyBG;
+        color: $White;
+    }
+}

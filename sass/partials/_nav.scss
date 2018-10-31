@@ -1,0 +1,10 @@
+/* --- NAV --- */
+nav {
+    .action {
+        color: $White;
+
+        &:hover {
+            background-color: $Grey;
+        }
+    }
+}

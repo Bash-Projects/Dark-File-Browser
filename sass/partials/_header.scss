@@ -1,0 +1,50 @@
+/* --- HEADER --- */
+header {
+    background-color: $GreyBG;
+    border-bottom: 1px solid $DarkBG;
+    box-shadow: none;
+    color: $White;
+
+    #search {
+        #input {
+            background-color: $Grey;
+        }
+
+        input {
+            color: $White;
+        }
+    }
+
+    .action {
+        color: $White;
+
+        &:hover {
+            background-color: $Grey;
+        }
+
+        .counter {
+            background-color: $White;
+            color: $DarkBG;
+        }
+    }
+
+    #search.active {
+        #input {
+            background-color: $GreyBG;
+        }
+
+        input {
+            color: $White;
+        }
+
+        .action {
+            i {
+                color: $White;
+            }
+
+            &:hover {
+                background-color: $Grey;
+            }
+        }
+    }
+}

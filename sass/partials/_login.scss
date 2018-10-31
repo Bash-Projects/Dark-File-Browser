@@ -1,0 +1,43 @@
+/* --- LOGIN --- */
+#login {
+    background-color: $GreyBG;
+    color: $White;
+
+    form {
+        background-color: $DarkBG;
+        border: 15px solid $DarkBG;
+        max-width: 20em;
+    }
+
+    input {
+
+        &[type="password"],
+        &[type="text"] {
+            background-color: $Grey;
+            border-color: $Grey;
+            color: $White;
+
+            &:hover {
+                border-color: $Grey;
+            }
+
+            &:focus {
+                border-color: $White;
+            }
+        }
+    }
+
+    input[type="submit"] {
+        background-color: $Grey;
+
+        &:hover {
+            border-color: $White;
+            background-color: lighten($Grey, 10%);
+        }
+    }
+
+    .wrong {
+        background-color: transparent;
+        color: $Red;
+    }
+}

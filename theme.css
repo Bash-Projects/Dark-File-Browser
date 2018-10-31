@@ -1,0 +1,390 @@
+/*  Dark File Browser 1.0.0 by Felix
+
+        A dark theme for File Browser
+
+                homepageURL:    https://github.com/iFelix18/Dark-File-Browser
+                supportURL:     https://github.com/iFelix18/Dark-File-Browser/issues
+                license:        CC-BY-SA-4.0
+*/
+/* --- VERSION --- */
+.credits span:nth-child(2):after {
+  white-space: pre !important;
+  content: "\A\A Dark File Browser v1.0.0" !important;
+}
+
+/* --- LOGIN --- */
+#login {
+  background-color: #1F1F1F;
+  color: #FFF;
+}
+
+#login form {
+  background-color: #1A1A1A;
+  border: 15px solid #1A1A1A;
+  max-width: 20em;
+}
+
+#login input[type="password"], #login input[type="text"] {
+  background-color: #303030;
+  border-color: #303030;
+  color: #FFF;
+}
+
+#login input[type="password"]:hover, #login input[type="text"]:hover {
+  border-color: #303030;
+}
+
+#login input[type="password"]:focus, #login input[type="text"]:focus {
+  border-color: #FFF;
+}
+
+#login input[type="submit"] {
+  background-color: #303030;
+}
+
+#login input[type="submit"]:hover {
+  border-color: #FFF;
+  background-color: #4a4a4a;
+}
+
+#login .wrong {
+  background-color: transparent;
+  color: #F44336;
+}
+
+/* --- HEADER --- */
+header {
+  background-color: #1F1F1F;
+  border-bottom: 1px solid #1A1A1A;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #FFF;
+}
+
+header #search #input {
+  background-color: #303030;
+}
+
+header #search input {
+  color: #FFF;
+}
+
+header .action {
+  color: #FFF;
+}
+
+header .action:hover {
+  background-color: #303030;
+}
+
+header .action .counter {
+  background-color: #FFF;
+  color: #1A1A1A;
+}
+
+header #search.active #input {
+  background-color: #1F1F1F;
+}
+
+header #search.active input {
+  color: #FFF;
+}
+
+header #search.active .action i {
+  color: #FFF;
+}
+
+header #search.active .action:hover {
+  background-color: #303030;
+}
+
+/* --- NAV --- */
+nav .action {
+  color: #FFF;
+}
+
+nav .action:hover {
+  background-color: #303030;
+}
+
+/* --- BODY --- */
+body {
+  background-color: #1A1A1A;
+}
+
+body #breadcrumbs,
+body #breadcrumbs span {
+  color: #FFF;
+}
+
+body #listing h2 {
+  color: #FFF;
+}
+
+body .message {
+  color: #FFF;
+}
+
+body #previewer h2.message {
+  color: #FFF;
+}
+
+/* --- LISTING --- */
+#listing.list .item.header {
+  background-color: #1F1F1F;
+  border-color: #1A1A1A;
+  color: #FFF;
+}
+
+#listing.list .item {
+  border-bottom-color: #1A1A1A;
+}
+
+#listing .item {
+  background-color: #1F1F1F;
+  color: #FFF;
+}
+
+#listing .item:hover {
+  background-color: #303030;
+}
+
+#listing .item[aria-selected="true"] {
+  background-color: #1F1F1F !important;
+  -webkit-box-shadow: inset 0 0 0 1px #FFF !important;
+          box-shadow: inset 0 0 0 1px #FFF !important;
+}
+
+#listing .item[aria-selected="true"]:hover {
+  background-color: #303030 !important;
+  -webkit-box-shadow: inset 0 0 0 1px #FFF !important;
+          box-shadow: inset 0 0 0 1px #FFF !important;
+}
+
+#listing #multiple-selection {
+  background-color: #1F1F1F;
+  color: #FFF;
+}
+
+/* --- CARD FLOATING --- */
+.card.floating {
+  background-color: #1A1A1A;
+  color: #FFF;
+}
+
+.card.floating input[type="text"] {
+  color: #FFF;
+}
+
+.card.floating input[type="text"]:hover, .card.floating input[type="text"]:focus {
+  border-color: #FFF;
+}
+
+.card.floating .file-list li {
+  border: solid 1px #1A1A1A;
+}
+
+.card.floating .file-list li:hover {
+  background-color: #303030;
+  border-color: #303030;
+}
+
+.card.floating .file-list li[aria-selected="true"] {
+  background-color: #303030 !important;
+  border-color: #FFF;
+}
+
+.card.floating button.flat {
+  background-color: #303030;
+  border: solid 1px #303030;
+  color: #FFF;
+}
+
+.card.floating button.flat:hover {
+  border: solid 1px #FFF;
+}
+
+.card.floating button.flat.cancel {
+  background-color: #F44336;
+  border: solid 1px #F44336;
+  color: #FFF;
+}
+
+.card.floating button.flat.cancel:hover {
+  border-color: #FFF;
+}
+
+.card.floating button.cancel {
+  background-color: #F44336;
+  border: solid 1px #F44336;
+  color: #FFF;
+}
+
+.card.floating button.cancel:hover {
+  border-color: #FFF;
+}
+
+.card#share ul li a {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.card#share ul li input,
+.card#share ul li select {
+  background-color: #303030;
+  border-color: #303030;
+  color: #FFF;
+}
+
+.card#share ul li .action {
+  color: #FFF;
+}
+
+/* --- EDITOR --- */
+#editor .CodeMirror {
+  background-color: #1F1F1F;
+  color: #FFF;
+}
+
+#editor .CodeMirror-gutters {
+  background-color: #1F1F1F;
+  border-right-color: #303030;
+}
+
+#editor .CodeMirror-cursor {
+  border-left: solid thin #FFF;
+}
+
+#editor .CodeMirror-linenumber {
+  color: #FFF;
+}
+
+#editor .CodeMirror-selected {
+  background: rgba(48, 48, 48, 0.75);
+}
+
+/* --- SEARCH --- */
+#search #result {
+  background-color: #1A1A1A;
+  color: #FFF;
+}
+
+#search .boxes {
+  background-color: #1A1A1A;
+}
+
+#search .boxes h3 {
+  color: #FFF;
+}
+
+#search .boxes > div > div {
+  background-color: #1F1F1F;
+}
+
+#search .boxes > div > div:hover {
+  background-color: #303030;
+}
+
+#search li:hover {
+  background-color: #303030;
+}
+
+/* --- SETTINGS --- */
+.dashboard #nav {
+  color: #FFF;
+}
+
+.dashboard #nav li.active {
+  border-color: #FFF;
+}
+
+.dashboard .card {
+  background-color: #1F1F1F;
+  color: #FFF;
+}
+
+.dashboard .card .card-title button.flat {
+  background-color: #303030;
+  -webkit-box-shadow: inset 0 0 0 1px #303030;
+          box-shadow: inset 0 0 0 1px #303030;
+  color: #FFF;
+}
+
+.dashboard .card .card-title button.flat:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #FFF;
+          box-shadow: inset 0 0 0 1px #FFF;
+}
+
+.dashboard .card h3 {
+  color: #FFF;
+}
+
+.dashboard .card p label {
+  color: #FFF;
+}
+
+.dashboard .card textarea {
+  background-color: #303030;
+  border-color: #303030;
+  color: #FFF;
+}
+
+.dashboard .card textarea:focus {
+  border-color: #FFF;
+}
+
+.dashboard .card input[type="password"],
+.dashboard .card input[type="text"] {
+  color: #FFF;
+}
+
+.dashboard .card input[type="password"]:hover, .dashboard .card input[type="password"]:focus,
+.dashboard .card input[type="text"]:hover,
+.dashboard .card input[type="text"]:focus {
+  border-color: #FFF;
+}
+
+.dashboard .card .collapsible {
+  border-top-color: #303030;
+}
+
+.dashboard .card .collapsible label * {
+  color: #FFF;
+}
+
+.dashboard .card .card-content.full table tr {
+  border-bottom-color: #303030;
+}
+
+.dashboard .card .card-content.full table th {
+  color: #FFF;
+}
+
+.dashboard .card .card-action input[type="submit"].flat {
+  background-color: #303030;
+  -webkit-box-shadow: inset 0 0 0 1px #303030;
+          box-shadow: inset 0 0 0 1px #303030;
+  color: #FFF;
+}
+
+.dashboard .card .card-action input[type="submit"].flat:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #FFF;
+          box-shadow: inset 0 0 0 1px #FFF;
+}
+
+.dashboard .card .card-action button.flat.delete {
+  background-color: #F44336;
+  -webkit-box-shadow: inset 0 0 0 1px #303030;
+          box-shadow: inset 0 0 0 1px #303030;
+  color: #FFF;
+}
+
+.dashboard .card .card-action button.flat.delete:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #FFF;
+          box-shadow: inset 0 0 0 1px #FFF;
+}
+
+.dashboard #locale {
+  background-color: #1F1F1F;
+  color: #FFF;
+}

@@ -1,0 +1,27 @@
+/* --- SEARCH --- */
+#search {
+    #result {
+        background-color: $DarkBG;
+        color: $White;
+    }
+
+    .boxes {
+        background-color: $DarkBG;
+
+        h3 {
+            color: $White;
+        }
+
+        >div>div {
+            background-color: $GreyBG;
+
+            &:hover {
+                background-color: $Grey;
+            }
+        }
+    }
+
+    li:hover {
+        background-color: $Grey;
+    }
+}

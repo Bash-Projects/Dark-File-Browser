@@ -1,0 +1,5 @@
+/* --- VERSION --- */
+.credits span:nth-child(2):after {
+    white-space: pre !important;
+    content: "\A\A Dark File Browser v1.0.0" !important;
+}

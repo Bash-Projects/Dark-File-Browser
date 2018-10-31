@@ -1,0 +1,24 @@
+/* --- EDITOR --- */
+#editor {
+    .CodeMirror {
+        background-color: $GreyBG;
+        color: $White;
+    }
+
+    .CodeMirror-gutters {
+        background-color: $GreyBG;
+        border-right-color: $Grey;
+    }
+
+    .CodeMirror-cursor {
+        border-left: solid thin $White;
+    }
+
+    .CodeMirror-linenumber {
+        color: $White;
+    }
+
+    .CodeMirror-selected {
+        background: rgba($Grey, .75);
+    }
+}

@@ -1,0 +1,21 @@
+/* --- BODY --- */
+body {
+    background-color: $DarkBG;
+
+    #breadcrumbs,
+    #breadcrumbs span {
+        color: $White;
+    }
+
+    #listing h2 {
+        color: $White;
+    }
+
+    .message {
+        color: $White;
+    }
+
+    #previewer h2.message {
+        color: $White;
+    }
+}

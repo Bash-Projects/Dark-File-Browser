@@ -1,0 +1,78 @@
+/* --- CARD FLOATING --- */
+.card.floating {
+    background-color: $DarkBG;
+    color: $White;
+
+    input[type="text"] {
+        color: $White;
+
+        &:hover,
+        &:focus {
+            border-color: $White;
+        }
+    }
+
+    .file-list {
+        li {
+            border: solid 1px $DarkBG;
+        }
+
+        li:hover {
+            background-color: $Grey;
+            border-color: $Grey;
+        }
+
+        li[aria-selected="true"] {
+            background-color: $Grey !important;
+            border-color: $White;
+        }
+    }
+
+    button.flat {
+        background-color: $Grey;
+        border: solid 1px $Grey;
+        color: $White;
+
+        &:hover {
+            border: solid 1px $White;
+        }
+    }
+
+    button.flat.cancel {
+        background-color: $Red;
+        border: solid 1px $Red;
+        color: $White;
+
+        &:hover {
+            border-color: $White;
+        }
+    }
+
+    button.cancel {
+        background-color: $Red;
+        border: solid 1px $Red;
+        color: $White;
+
+        &:hover {
+            border-color: $White;
+        }
+    }
+}
+
+.card#share ul li {
+    a {
+        color: $White;
+        text-decoration: underline;
+    }
+
+    input,
+    select {
+        background-color: $Grey;
+        border-color: $Grey;
+        color: $White;
+    }
+
+    .action {
+        color: $White;
+    }
+}

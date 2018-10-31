@@ -1,0 +1,38 @@
+/* --- LISTING --- */
+#listing {
+    &.list {
+        .item.header {
+            background-color: $GreyBG;
+            border-color: $DarkBG;
+            color: $White;
+        }
+
+        .item {
+            border-bottom-color: $DarkBG;
+        }
+    }
+
+    .item {
+        background-color: $GreyBG;
+        color: $White;
+
+        &:hover {
+            background-color: $Grey;
+        }
+    }
+
+    .item[aria-selected="true"] {
+        background-color: $GreyBG !important;
+        box-shadow: inset 0 0 0 1px $White !important;
+
+        &:hover {
+            background-color: $Grey !important;
+            box-shadow: inset 0 0 0 1px $White !important;
+        }
+    }
+
+    #multiple-selection {
+        background-color: $GreyBG;
+        color: $White;
+    }
+}
