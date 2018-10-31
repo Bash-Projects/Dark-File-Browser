@@ -1,0 +1,12 @@
+{
+  "name": "dark-file-browser",
+  "version": "1.0.0",
+  "description": "A dark theme for Filebrowser",
+  "license": "CC-BY-SA-4.0",
+  "repository": "https://github.com/iFelix18/Dark-File-Browser",
+  "homepage": "https://github.com/iFelix18/Dark-File-Browser",
+  "devDependencies": {
+    "stylelint": "^9.7.1",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
