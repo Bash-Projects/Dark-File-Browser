@@ -1,4 +1,4 @@
-/*  Dark File Browser 1.0.0 by Felix
+/*  Dark File Browser 1.0.1 by Felix
 
         A dark theme for File Browser
 
@@ -9,7 +9,7 @@
 /* --- VERSION --- */
 .credits span:nth-child(2):after {
   white-space: pre !important;
-  content: "\A\A Dark File Browser v1.0.0" !important;
+  content: "\A\A Dark File Browser v1.0.1" !important;
 }
 
 /* --- LOGIN --- */
@@ -99,12 +99,21 @@ header #search.active .action:hover {
 }
 
 /* --- NAV --- */
+nav {
+  background-color: #1F1F1F;
+}
+
 nav .action {
   color: #FFF;
 }
 
 nav .action:hover {
   background-color: #303030;
+}
+
+/* --- DROPDOWN --- */
+#dropdown {
+  background-color: #1F1F1F;
 }
 
 /* --- BODY --- */
